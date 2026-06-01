@@ -71,7 +71,7 @@ export default function App() {
   };
 
   return (
-    <div className="h-full w-full flex items-stretch justify-center px-4 py-6 md:px-[25vw] md:py-[20vh]">
+    <div className="h-full w-full flex items-stretch justify-center px-4 py-6 md:px-8 md:py-8">
       <div className="w-full h-full flex flex-col rounded-2xl bg-white/80 backdrop-blur-xl shadow-[0_30px_80px_-20px_rgba(15,23,42,0.25)] ring-1 ring-slate-200/70 overflow-hidden">
         {!apiKey && (
           <div
